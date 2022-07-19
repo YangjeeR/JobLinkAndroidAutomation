@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LandingScreenTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LandingScreenTestSuite(failed)">
+    <classes>
+      <class name="plentyofjobsAutomationTesting.LandingScreenTests">
+        <methods>
+          <include name="OpenApplication"/>
+          <include name="OpenApplication"/>
+        </methods>
+      </class> <!-- plentyofjobsAutomationTesting.LandingScreenTests -->
+    </classes>
+  </test> <!-- LandingScreenTestSuite(failed) -->
+</suite> <!-- Failed suite [LandingScreenTestSuite] -->

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-08T16:07:53 NPT" name="SmokeTestingSuite" finished-at="2022-07-08T16:10:22 NPT" duration-ms="148477">
+    <groups>
+    </groups>
+    <test started-at="2022-07-08T16:07:53 NPT" name="SmokeTestingSuite" finished-at="2022-07-08T16:10:22 NPT" duration-ms="148477">
+      <class name="plentyofjobsAutomationTesting.ForgotPasswordTests">
+        <test-method is-config="true" signature="OpenApplication(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:plentyofjobsAutomationTesting.ForgotPasswordTests@9353778]" started-at="2022-07-08T16:08:59 NPT" name="OpenApplication" finished-at="2022-07-08T16:09:11 NPT" duration-ms="11837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void plentyofjobsAutomationTesting.ForgotPasswordTests.LoginTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@53a50b0a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method signature="LoginTest()[pri:0, instance:plentyofjobsAutomationTesting.ForgotPasswordTests@9353778]" started-at="2022-07-08T16:09:11 NPT" name="LoginTest" finished-at="2022-07-08T16:10:22 NPT" duration-ms="70948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+      </class> <!-- plentyofjobsAutomationTesting.ForgotPasswordTests -->
+      <class name="plentyofjobsAutomationTesting.LoginTests">
+        <test-method is-config="true" signature="OpenApplication(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:plentyofjobsAutomationTesting.LoginTests@63355449]" started-at="2022-07-08T16:07:54 NPT" name="OpenApplication" finished-at="2022-07-08T16:08:11 NPT" duration-ms="17113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void plentyofjobsAutomationTesting.LoginTests.LoginTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@53a50b0a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method signature="LoginTest()[pri:0, instance:plentyofjobsAutomationTesting.LoginTests@63355449]" started-at="2022-07-08T16:08:11 NPT" name="LoginTest" finished-at="2022-07-08T16:08:59 NPT" duration-ms="48418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+      </class> <!-- plentyofjobsAutomationTesting.LoginTests -->
+    </test> <!-- SmokeTestingSuite -->
+  </suite> <!-- SmokeTestingSuite -->
+</testng-results>

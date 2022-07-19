@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ParalleTesting" parallel="tests"
+ thread-count="5">
+
+ <!--Nord2 _Settings -->
+ <test name="Test-Nord2" parallel="classes" thread-count="2">
+  <parameter name="deviceName" value="Nord2" />
+  <parameter name="platformVersion" value="11.3" />
+  <classes>
+   <class name="AppiumGrid.TestGrid" />
+  </classes>
+ </test>
+
+ <!--Remdi_Note10_Settings -->
+ <test name="Test-Redmi" parallel="classes" thread-count="5">
+  <parameter name="deviceName" value="Redmi Note 10S" />
+  <parameter name="platformVersion" value="12.5.16" />
+  <classes>
+   <class name="AppiumGrid.TestGrid" />
+  </classes>
+ </test>
+
+</suite>
